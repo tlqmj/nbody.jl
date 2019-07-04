@@ -1,5 +1,8 @@
 module nbody
 
-greet() = print("Hello World!")
+export Bodies
+
+include("utils.jl")
+include("bodies.jl")
 
 end # module
